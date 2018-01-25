@@ -15,8 +15,7 @@
 vendor
 
 # Ignore the .dd folder
-C:\Users\tasto\Sites\devdesktop\drupal-8.4.4\sites\sharedsite.dd
-
+sites/*.dd
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
 sites/*/services*.yml
