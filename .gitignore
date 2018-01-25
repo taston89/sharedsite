@@ -14,6 +14,8 @@
 # Core's dependencies are managed with Composer.
 vendor
 
+!/core/assets/vendor
+
 # Ignore the .dd folder
 sites/*.dd
 # Ignore configuration files that may contain sensitive information.
