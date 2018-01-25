@@ -1,0 +1,21 @@
+uuid: 5dcbb8c0-90fd-456a-8e25-8ccc68710d65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_1
+    - node.type.blog
+id: node.blog.field_time_1
+field_name: field_time_1
+entity_type: node
+bundle: blog
+label: time
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1516859912
+default_value_callback: ''
+settings: {  }
+field_type: timestamp
