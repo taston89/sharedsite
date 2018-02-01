@@ -1,0 +1,5 @@
+# Schema for the configuration files of the proto theme.
+
+proto.settings:
+  type: theme_settings
+  label: 'proto settings'

@@ -1,0 +1,17 @@
+
+#test {
+	background-color: #0000FF;
+}
+	.container {
+	background-color: #FF0000;
+	padding: 20px ;
+}
+	.container-inner {
+	background-color: #00FF00;
+	padding: 20px ;
+}
+{#change background-color for promoted article #}
+	.node--promoted {
+	background-color: #EEEEEE;
+	padding: 20px ;
+	}
