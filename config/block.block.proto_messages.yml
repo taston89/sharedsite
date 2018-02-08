@@ -1,0 +1,22 @@
+uuid: d2d33e81-24a8-4ea9-bfd0-2c7969a2707d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - proto
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: proto_messages
+theme: proto
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

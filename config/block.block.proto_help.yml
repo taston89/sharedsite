@@ -1,0 +1,22 @@
+uuid: 847da800-82d6-41f9-a342-85cc6ad091a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - proto
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: proto_help
+theme: proto
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

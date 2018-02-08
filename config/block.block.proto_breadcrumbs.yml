@@ -1,0 +1,22 @@
+uuid: 45b6d211-94ff-4fe8-9058-ae29f4287329
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - proto
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: proto_breadcrumbs
+theme: proto
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

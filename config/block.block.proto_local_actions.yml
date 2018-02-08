@@ -1,0 +1,20 @@
+uuid: 086b334b-5c19-4fd5-9198-2d71289e5281
+langcode: en
+status: true
+dependencies:
+  theme:
+    - proto
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: proto_local_actions
+theme: proto
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -25,4 +25,8 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  comment: true
+  field_image_x: true
+  field_time_1: true
+  field_user: true
